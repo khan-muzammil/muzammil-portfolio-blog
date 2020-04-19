@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-22boxes-uno",
+  "name": "muzammil-portfolio-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "My portfolio and blog",
   "version": "0.1.0",
-  "author": "Gagandeep Singh <iamtherealgd@gmail.com>",
+  "author": "Muzammil Khan <muzammil.khan@outlook.in>",
   "bugs": {
-    "url": "https://github.com/iamtherealgd/gatsby-starter-22boxes-uno"
+    "url": "https://github.com/muzammil-khan-vst-au4/muzammil-portfolio-blog"
   },
   "dependencies": {
     "gatsby": "^2.19.45",
@@ -46,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamtherealgd/gatsby-starter-22boxes-uno.git"
+    "url": "git+https://github.com/muzammil-khan-vst-au4/muzammil-portfolio-blog.git"
   },
   "scripts": {
     "build": "gatsby build",
