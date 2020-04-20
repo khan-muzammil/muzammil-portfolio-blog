@@ -7,9 +7,13 @@ class Header extends React.Component {
   render() {
     const { location } = this.props
 
-    const blogLinkStyle = {
+    const homeLinkStyle = {
       paddingBottom: location.pathname === "/" ? `5px` : `0px`,
       boxShadow: location.pathname === "/" ? `0px 1px 0px 0px black` : `none`,
+    }
+    const blogLinkStyle = {
+      paddingBottom: location.pathname === "/blog" ? `5px` : `0px`,
+      boxShadow: location.pathname === "/blog" ? `0px 1px 0px 0px black` : `none`,
     }
     const workLinkStyle = {
       paddingBottom: location.pathname === "/work" ? `5px` : `0px`,
@@ -31,8 +35,15 @@ class Header extends React.Component {
         <div className="header-nav">
           <ul className="nav-ul">
             <li className="nav-li">
-              <h1 className="li-h1" style={blogLinkStyle}>
+              <h1 className="li-h1" style={homeLinkStyle}>
                 <Link className="li-link" to={`/`}>
+                  Home
+                </Link>
+              </h1>
+            </li>
+            <li className="nav-li">
+              <h1 className="li-h1" style={blogLinkStyle}>
+                <Link className="li-link" to={`/blog`}>
                   Blog
                 </Link>
               </h1>

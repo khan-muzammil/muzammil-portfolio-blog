@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-import GitHubButton from 'react-github-btn'
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -14,27 +13,6 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <div className="elevator">
-              <h1>{`Hey, I'm Muzammil 👋`} </h1>
-              <p>
-                {`I'm a full stack software developer. I build things for the web.`}
-              </p>
-              <div className="social-buttons">
-                <GitHubButton
-                  href="https://github.com/muzammil-khan-vst-au4/"
-                  data-size="large"
-                  data-show-count="true"
-                >
-                  Muzammil
-                </GitHubButton>
-              </div>
-            </div>
-            <h2>
-              Latest Articles
-              <Link to="/blog" className="view-all">
-                View all
-              </Link>
-            </h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
