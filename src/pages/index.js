@@ -13,7 +13,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="Home" />
       <div className="elevator">
               <h1>{`Hey, I'm Muzammil 👋`} </h1>
               <p>
