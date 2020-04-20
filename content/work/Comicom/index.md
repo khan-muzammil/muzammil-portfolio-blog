@@ -8,9 +8,13 @@ category: Website
 link: https://white-collar.herokuapp.com/
 ---
 
-> [Github](https://github.com/attainu/eagle-symmetrical-goggles)
+<!-- > [Github](https://github.com/attainu/eagle-symmetrical-goggles) -->
 
-> [Watch demo](https://youtu.be/KVHencoTdGk)
+><a href="https://github.com/attainu/eagle-symmetrical-goggles" target="_blank">Github</a>
+
+
+<!-- > [Watch demo](https://youtu.be/KVHencoTdGk) -->
+><a href="https://youtu.be/KVHencoTdGk" target="_blank">Watch demo </a>
 
 
 #### What are we trying to build ?
