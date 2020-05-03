@@ -10,11 +10,11 @@ link: https://comicom2020.herokuapp.com/
 
 <!-- > [Github](https://github.com/attainu/eagle-symmetrical-goggles) -->
 
-><a href="https://github.com/attainu/Shubham-Muzammil-ComiCom-au4" target="_blank">Github</a>
+><a href="https://github.com/muzammil-khan-vst-au4/comicom" target="_blank">Github</a>
 
 
 <!-- > [Watch demo](https://youtu.be/KVHencoTdGk) -->
-><a href="https://youtu.be/KVHencoTdGk" target="_blank">Watch demo </a>
+><a href="" target="_blank">Watch demo </a>
 
 
 #### Introduction 
