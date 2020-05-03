@@ -61,9 +61,11 @@ Now lets setup the react frontend. It is going to be very basic. I'll use create
 ```
  npx create-create-app somename
 ```
+
 - We'll remove the necessary code from the react app. And add the following code to create a form.
 
-```javascript
+``` javascript
+
 import React from 'react';
 
 function App() {
@@ -82,6 +84,7 @@ function App() {
 
 export default App;
 ```
+
 <img src="screen1.png">  
   <br/>
 
