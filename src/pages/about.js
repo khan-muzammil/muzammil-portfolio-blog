@@ -21,7 +21,7 @@ const AboutPage = ({ data, location }) => {
         <div class="work section second" id="experiences">
             <h1>Work Experience</h1>
             <ul class="work-list">
-              <li>May 2020 - Present</li>
+              <li>March 2020 - Present</li>
               <li><a href="https://attainu.com/">AttainU</a></li>
               <li>Mentor</li>
             </ul>
