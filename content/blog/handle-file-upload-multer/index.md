@@ -16,7 +16,10 @@ Lets setup our backend first.
 ```javascript
  npm i express multer cors
  ```
+
  + We will create an express server and a route to handle the upload.
+
+
 ```javascript
 var express = require('express');
 var app = express();
@@ -58,13 +61,14 @@ app.listen(8000, function() {
 ```
 ##### Step 2: 
 Now lets setup the react frontend. It is going to be very basic. I'll use create-react-app.
+
 ```
  npx create-create-app somename
 ```
 
 - We'll remove the necessary code from the react app. And add the following code to create a form.
 
-``` javascript
+```javascript
 
 import React from 'react';
 
