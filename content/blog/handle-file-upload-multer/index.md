@@ -10,7 +10,7 @@ tags: ["Multer", "React", "Node"]
 This tutorial will guide you to handle file or image uploads in a MERN app using multer in a few easy steps.
 Lets get started : 
 
-##### Step 1: 
+### Step 1: 
 Lets setup our backend first.
 + Create a server.js file in the root of your project. Lets install the required packages.
 ```javascript
@@ -59,7 +59,7 @@ app.listen(8000, function() {
     console.log('running on port 9000');
 });
 ```
-##### Step 2: 
+### Step 2: 
 Now lets setup the react frontend. It is going to be very basic. I'll use create-react-app.
 
 ```
@@ -121,14 +121,14 @@ export default App;
     <input type="file" multiple="" onChange={this.handleFileUpload}/>
 
     ```
-##### Step 3:
+### Step 3:
 Our app is now ready. Start the server and the react app and let's test it. 
 
 - The result: You can now see the uploaded image in uploads folder
 <br />
   <img src="./screen2.PNG" />
 
-##### Step 4 (Optional):
+### Step 4 (Optional):
 Additionally you can also use an image compressor to reduce the size of image before uploading.
 A CDN can also be used like cloudinary to upload the images and source them from there.
 
