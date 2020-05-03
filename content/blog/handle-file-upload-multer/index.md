@@ -84,8 +84,7 @@ function App() {
 
 export default App;
 ```
-![SCREEN1](/screen1.png);
-<img src="screen1.png" />  
+<img src="./screen1.png" />  
   <br/>
 
 - We will now add some handlers to make this form functional. Also axios will be used to make a post request to the backend.
@@ -123,7 +122,7 @@ Our app is now ready. Start the server and the react app and let's test it.
 
 - The result: You can now see the uploaded image in uploads folder
 <br />
-  <img src="screen2.png" />
+  <img src="./screen2.png" />
 
 ##### Step 4 (Optional):
 Additionally you can also use an image compressor to reduce the size of image before uploading.
